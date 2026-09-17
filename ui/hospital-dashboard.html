@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediRisk - Hospital Workspace</title>
+    <link rel="stylesheet" href="css/hospital.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-shell">
+        <aside class="dash-sidebar">
+            <a href="index.html" class="brand">Medi<span>Risk</span></a>
+            <div class="user-card">
+                <div class="user-avatar"><i class="fas fa-user-md"></i></div>
+                <div>
+                    <strong id="user-name">Loading...</strong>
+                    <span id="user-role">Role</span>
+                </div>
+            </div>
+            <nav class="dash-nav">
+                <button class="active" data-view="overview"><i class="fas fa-chart-pie"></i> Overview</button>
+                <button data-view="patients"><i class="fas fa-users"></i> Register Patients</button>
+                <button data-view="reports"><i class="fas fa-microscope"></i> Patient Reports</button>
+                <button data-view="insights"><i class="fas fa-notes-medical"></i> Patient Insights</button>
+                <button data-view="chat"><i class="fas fa-robot"></i> Patient Chatbot</button>
+                <button data-view="patient-section" id="patient-section-nav"><i class="fas fa-user"></i> Patient Section</button>
+                <button data-view="super-admin" id="super-admin-nav"><i class="fas fa-user-shield"></i> Super Admin</button>
+            </nav>
+            <button class="logout-btn" id="logout-btn"><i class="fas fa-arrow-right-from-bracket"></i> Logout</button>
+        </aside>
+
+        <main class="dash-main">
+            <header class="dash-header">
+                <div>
+                    <p class="eyebrow" id="hospital-name">Hospital Workspace</p>
+                    <h1 id="page-title">Overview</h1>
+                </div>
+                <div class="dash-actions">
+                    <button class="secondary-btn" id="warmup-btn"><i class="fas fa-bolt"></i> Warm up AI</button>
+                    <button class="icon-btn" type="button" id="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon" id="theme-icon"></i>
+                    </button>
+                </div>
+            </header>
+
+            <section class="view-section active" id="view-overview">
+                <div class="metric-grid" id="metric-grid"></div>
+                <div class="two-column">
+                    <div class="data-panel">
+                        <h2>Risk Distribution</h2>
+                        <div id="risk-distribution" class="stack-list"></div>
+                    </div>
+                    <div class="data-panel">
+                        <h2>High Risk Patients</h2>
+                        <div id="high-risk-list" class="stack-list"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="view-section" id="view-patients">
+                <div class="data-panel">
+                    <div class="panel-heading">
+                        <h2>Register Patient</h2>
+                        <span>Reception workflow</span>
+                    </div>
+                    <form class="grid-form" id="patient-form">
+                        <input id="patient-name" placeholder="Full name" required>
+                        <input id="patient-dob" type="date" placeholder="Date of birth">
+                        <select id="patient-gender">
+                            <option value="unknown">Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <input id="patient-phone" placeholder="Phone number">
+                        <select id="patient-language">
+                            <option value="en">English</option>
+                            <option value="te">Telugu</option>
+                            <option value="hi">Hindi</option>
+                        </select>
+                        <input id="patient-address" placeholder="Address">
+                        <button class="primary-btn" type="submit"><i class="fas fa-user-plus"></i> Register</button>
+                    </form>
+                    <p class="form-message" id="patient-message"></p>
+                </div>
+
+                <div class="data-panel">
+                    <div class="panel-heading">
+                        <h2>Search Patients</h2>
+                        <span>UID, name, or phone</span>
+                    </div>
+                    <div class="search-row">
+                        <input id="patient-search" placeholder="Search Rahul / phone / MRP...">
+                        <button class="secondary-btn" id="patient-search-btn"><i class="fas fa-search"></i> Search</button>
+                    </div>
+                    <div id="patient-results" class="stack-list"></div>
+                </div>
+            </section>
+
+            <section class="view-section" id="view-reports">
+                <div class="data-panel">
+                    <div class="panel-heading">
+                        <h2>Create Visit & Save Prediction</h2>
+                        <span>Staff-only report workflow</span>
+                    </div>
+                    <form class="grid-form" id="report-form">
+                        <label class="field">Patient ID
+                            <input id="report-patient-id" type="number" min="1" required>
+                        </label>
+                        <label class="field">Report Type
+                            <select id="report-type">
+                                <option value="diabetes">Diabetes Report</option>
+                                <option value="heart_simple">Simple Heart Screening</option>
+                            </select>
+                        </label>
+                        <label class="field">Visit Reason
+                            <input id="report-reason" value="AI screening">
+                        </label>
+
+                        <div class="form-subtitle">Diabetes values</div>
+                        <label class="field">Patient Gender
+                            <select id="diabetes-gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </label>
+                        <label class="field" id="diabetes-pregnancies-field">Pregnancies
+                            <input id="diabetes-pregnancies" type="number" step="1">
+                        </label>
+                        <label class="field">Glucose
+                            <input id="diabetes-glucose" type="number" step="0.1">
+                        </label>
+                        <label class="field">Blood Pressure
+                            <input id="diabetes-bp" type="number" step="0.1">
+                        </label>
+                        <label class="field">Skin Thickness
+                            <input id="diabetes-skin" type="number" step="0.1">
+                        </label>
+                        <label class="field">Insulin Level
+                            <input id="diabetes-insulin" type="number" step="0.1">
+                        </label>
+                        <label class="field">BMI
+                            <input id="diabetes-bmi" type="number" step="0.1">
+                        </label>
+                        <label class="field">Family History Score
+                            <input id="diabetes-dpf" type="number" step="0.01">
+                        </label>
+
+                        <div class="form-subtitle">Simple heart screening</div>
+                        <label class="field">Age
+                            <input id="heart-age" type="number" step="1">
+                        </label>
+                        <label class="field">Gender
+                            <select id="heart-gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </label>
+                        <label class="field">Do you have chest pain?
+                            <select id="heart-chest-pain"><option value="0">No</option><option value="1">Yes</option></select>
+                        </label>
+                        <label class="field">Breathless while walking?
+                            <select id="heart-breathless"><option value="0">No</option><option value="1">Yes</option></select>
+                        </label>
+                        <label class="field">High BP?
+                            <select id="heart-high-bp"><option value="0">No</option><option value="1">Yes</option></select>
+                        </label>
+                        <label class="field">Diabetes?
+                            <select id="heart-diabetes"><option value="0">No</option><option value="1">Yes</option></select>
+                        </label>
+                        <label class="field">Smoking?
+                            <select id="heart-smoking"><option value="0">No</option><option value="1">Yes</option></select>
+                        </label>
+                        <label class="field">High cholesterol?
+                            <select id="heart-cholesterol"><option value="0">No</option><option value="1">Yes</option></select>
+                        </label>
+                        <label class="field">Tired easily?
+                            <select id="heart-tired"><option value="0">No</option><option value="1">Yes</option></select>
+                        </label>
+                        <label class="field">Family history?
+                            <select id="heart-family"><option value="0">No</option><option value="1">Yes</option></select>
+                        </label>
+                        <label class="field">Poor exercise recovery?
+                            <select id="heart-recovery"><option value="0">No</option><option value="1">Yes</option></select>
+                        </label>
+                        <label class="field">Chest pain during exercise?
+                            <select id="heart-exercise-pain"><option value="0">No</option><option value="1">Yes</option></select>
+                        </label>
+
+                        <button class="primary-btn" type="submit"><i class="fas fa-save"></i> Analyze & Save</button>
+                    </form>
+                    <p class="form-message" id="report-message"></p>
+                </div>
+                <div class="data-panel">
+                    <div class="panel-heading">
+                        <h2>Staff Prediction Result</h2>
+                        <span>Visible to hospital staff</span>
+                    </div>
+                    <div id="report-output" class="insight-output"></div>
+                </div>
+            </section>
+
+            <section class="view-section" id="view-insights">
+                <div class="data-panel">
+                    <div class="panel-heading">
+                        <h2>Patient Insights</h2>
+                        <span>Latest vs previous visit</span>
+                    </div>
+                    <div class="search-row">
+                        <input id="insight-patient-id" type="number" min="1" placeholder="Patient ID">
+                        <button class="secondary-btn" id="load-insights-btn"><i class="fas fa-file-medical"></i> Load</button>
+                    </div>
+                    <div id="insight-output" class="insight-output"></div>
+                </div>
+            </section>
+
+            <section class="view-section" id="view-patient-section">
+                <div class="data-panel">
+                    <div class="panel-heading">
+                        <h2>Patient Section</h2>
+                        <span>Simplified patient-facing view</span>
+                    </div>
+                    <div class="search-row">
+                        <input id="patient-view-id" type="number" min="1" placeholder="Patient ID">
+                        <button class="secondary-btn" id="load-patient-view-btn"><i class="fas fa-eye"></i> Load Patient View</button>
+                    </div>
+                    <div id="patient-view-output" class="insight-output"></div>
+                </div>
+            </section>
+
+            <section class="view-section" id="view-super-admin">
+                <div class="data-panel">
+                    <div class="panel-heading">
+                        <h2>Super Admin Section</h2>
+                        <span>Global hospital network view</span>
+                    </div>
+                    <div id="super-admin-output" class="insight-output"></div>
+                </div>
+            </section>
+
+            <section class="view-section" id="view-chat">
+                <div class="data-panel">
+                    <div class="panel-heading">
+                        <h2>Patient-Aware Chatbot</h2>
+                        <span>Uses stored report context</span>
+                    </div>
+                    <div class="search-row">
+                        <input id="chat-patient-id" type="number" min="1" placeholder="Patient ID">
+                        <button class="secondary-btn" id="open-chat-btn"><i class="fas fa-comments"></i> Open Chatbot</button>
+                    </div>
+                    <p class="muted-text">The patient ID is passed to the chatbot so responses can consider saved report history.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/hospital-api.js"></script>
+    <script src="js/hospital-dashboard.js"></script>
+</body>
+</html>

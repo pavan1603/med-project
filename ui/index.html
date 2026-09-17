@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediRisk — AI Medical Analysis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="bg-wrap">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Medi<span>Risk</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#stats">Stats</a></li>
+            <li>
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+            </li>
+            <li><a href="hospital-login.html">Hospital Login</a></li>
+            <li><a href="chatbot.html" class="btn-nav">Get Started →</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-badge">
+            <span class="badge-dot"></span>
+            AI Powered Medical Analysis
+        </div>
+        <h1>Advanced<br><span>Healthcare</span><br>Intelligence</h1>
+        <p>Predict diabetes and heart disease risk using machine learning models trained on 70,000+ patient records with up to 95% accuracy.</p>
+        <div class="hero-buttons">
+            <a href="chatbot.html" class="btn-primary">Get Started</a>
+            <a href="hospital-login.html" class="btn-outline">Hospital Login</a>
+            <a href="#about" class="btn-outline">Learn More</a>
+        </div>
+
+        <!-- Floating Hero Visual -->
+        <div class="hero-visual-wrap">
+
+            <!-- Center Dark Card -->
+            <div class="hero-center-card">
+                <div class="hcc-header">
+                    <div class="hcc-logo">Medi<span>Risk</span></div>
+                    <span class="hcc-status"><span class="status-dot"></span> Online</span>
+                </div>
+                <div class="hcc-ecg">
+                    <canvas id="heartbeat"></canvas>
+                </div>
+                <div class="hcc-input">
+                    <span>Ask about your health...</span>
+                    <button><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+
+            <!-- Floating Stats -->
+            <div class="float-el fe-1">
+                <div class="fe-icon"><i class="fas fa-tint"></i></div>
+                <div>
+                    <h4>Diabetes</h4>
+                    <p>95% Accuracy</p>
+                </div>
+            </div>
+
+            <div class="float-el fe-2">
+                <div class="fe-icon red"><i class="fas fa-heartbeat"></i></div>
+                <div>
+                    <h4>Heart Disease</h4>
+                    <p>93% Accuracy</p>
+                </div>
+            </div>
+
+            <div class="float-el fe-3">
+                <div class="fe-icon purple"><i class="fas fa-robot"></i></div>
+                <div>
+                    <h4>AI Chatbot</h4>
+                    <p>RAG Powered</p>
+                </div>
+            </div>
+
+            <div class="float-stat fs-1">
+                <h3>70K+</h3>
+                <p>Patients</p>
+            </div>
+
+            <div class="float-stat fs-2">
+                <h3>95%</h3>
+                <p>Accuracy</p>
+            </div>
+
+            <!-- Connector Lines SVG -->
+            <svg class="connectors" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                <line x1="150" y1="120" x2="280" y2="180" stroke="#2563eb" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+                <line x1="650" y1="100" x2="520" y2="170" stroke="#2563eb" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+                <line x1="100" y1="300" x2="280" y2="280" stroke="#2563eb" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+                <line x1="700" y1="320" x2="520" y2="290" stroke="#2563eb" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+                <circle cx="150" cy="120" r="4" fill="#2563eb" opacity="0.5"/>
+                <circle cx="650" cy="100" r="4" fill="#2563eb" opacity="0.5"/>
+                <circle cx="100" cy="300" r="4" fill="#2563eb" opacity="0.5"/>
+                <circle cx="700" cy="320" r="4" fill="#2563eb" opacity="0.5"/>
+            </svg>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-label">ABOUT MEDIRISK</div>
+            <h2>What is <span>MediRisk?</span></h2>
+            <p class="section-desc">MediRisk is an AI-powered medical analysis system that uses advanced machine learning to predict disease risk and provide personalized health insights.</p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon"><i class="fas fa-brain"></i></div>
+                    <h3>AI Powered</h3>
+                    <p>XGBoost models trained on real medical datasets for accurate predictions.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Reliable</h3>
+                    <p>93-95% accuracy verified on thousands of patient records.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Interactive</h3>
+                    <p>RAG-powered chatbot for personalized medical health advice.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-label">CAPABILITIES</div>
+            <h2>Our <span>Features</span></h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-top">
+                        <div class="feature-icon blue"><i class="fas fa-tint"></i></div>
+                        <span class="feature-tag">95% Accuracy</span>
+                    </div>
+                    <h3>Diabetes Prediction</h3>
+                    <p>Predict and classify diabetes into 4 types using XGBoost trained on 70,000 patients.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-top">
+                        <div class="feature-icon red"><i class="fas fa-heartbeat"></i></div>
+                        <span class="feature-tag">93% Accuracy</span>
+                    </div>
+                    <h3>Heart Disease Detection</h3>
+                    <p>Detect heart disease risk from 13 clinical features with 93% accuracy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-top">
+                        <div class="feature-icon purple"><i class="fas fa-robot"></i></div>
+                        <span class="feature-tag">RAG Powered</span>
+                    </div>
+                    <h3>AI Medical Chatbot</h3>
+                    <p>Ask medical questions and get personalized health advice powered by Llama3 AI.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-top">
+                        <div class="feature-icon green"><i class="fas fa-chart-line"></i></div>
+                        <span class="feature-tag">Data Driven</span>
+                    </div>
+                    <h3>Visual Insights</h3>
+                    <p>Interactive visualizations showing disease patterns and risk factors.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-top">
+                        <div class="feature-icon blue"><i class="fas fa-dna"></i></div>
+                        <span class="feature-tag">70K Patients</span>
+                    </div>
+                    <h3>Large Dataset</h3>
+                    <p>Trained on 70,000+ patient records across multiple diabetes types.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-top">
+                        <div class="feature-icon red"><i class="fas fa-pills"></i></div>
+                        <span class="feature-tag">Personalized</span>
+                    </div>
+                    <h3>Health Advice</h3>
+                    <p>Get personalized diet, exercise and treatment recommendations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-top">
+                        <div class="feature-icon purple"><i class="fas fa-project-diagram"></i></div>
+                        <span class="feature-tag">KMeans AI</span>
+                    </div>
+                    <h3>Risk Clustering</h3>
+                    <p>Patients grouped into Low, Medium and High risk categories automatically.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-top">
+                        <div class="feature-icon green"><i class="fas fa-lock"></i></div>
+                        <span class="feature-tag">Private</span>
+                    </div>
+                    <h3>Local & Secure</h3>
+                    <p>Runs completely offline using Ollama — your data never leaves your device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="section-label">BY THE NUMBERS</div>
+            <h2>MediRisk <span>Impact</span></h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <h2 class="counter" data-target="70000">0</h2>
+                    <p>Patients Analyzed</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-bullseye"></i></div>
+                    <h2 class="counter" data-target="95">0</h2>
+                    <p>% Diabetes Accuracy</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h2 class="counter" data-target="93">0</h2>
+                    <p>% Heart Accuracy</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-dna"></i></div>
+                    <h2 class="counter" data-target="34">0</h2>
+                    <p>Risk Factors Analyzed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div class="logo">Medi<span>Risk</span></div>
+            <p>AI-Powered Medical Risk Analysis System</p>
+            <p class="disclaimer">⚠️ Not a substitute for professional medical advice</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

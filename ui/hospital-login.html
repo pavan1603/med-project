@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediRisk - Hospital Login</title>
+    <link rel="stylesheet" href="css/hospital.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-shell login-shell">
+        <section class="login-info">
+            <a href="index.html" class="brand">Medi<span>Risk</span></a>
+            <div class="login-copy">
+                <p class="eyebrow">Hospital AI Workspace</p>
+                <h1>One place for patient risk, reports, and follow-up insights.</h1>
+                <p>
+                    Login as hospital staff to register patients, run AI screenings,
+                    review visit history, and analyze hospital-level health trends.
+                </p>
+            </div>
+            <div class="login-highlights">
+                <div>
+                    <i class="fas fa-hospital"></i>
+                    <span>Hospital-wise workflows</span>
+                </div>
+                <div>
+                    <i class="fas fa-user-shield"></i>
+                    <span>Role-based access</span>
+                </div>
+                <div>
+                    <i class="fas fa-chart-line"></i>
+                    <span>Patient history insights</span>
+                </div>
+            </div>
+        </section>
+
+        <main class="login-panel">
+            <div class="panel-top">
+                <div>
+                    <p class="eyebrow">Secure Access</p>
+                    <h2>Sign in</h2>
+                </div>
+                <button class="icon-btn" type="button" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+            </div>
+
+            <form id="login-form" class="login-form">
+                <label>
+                    Username
+                    <input type="text" id="username" autocomplete="username" placeholder="xyz_doctor" required>
+                </label>
+
+                <label>
+                    Password
+                    <input type="password" id="password" autocomplete="current-password" placeholder="Doctor123" required>
+                </label>
+
+                <button class="primary-btn" type="submit">
+                    <i class="fas fa-right-to-bracket"></i>
+                    Login
+                </button>
+            </form>
+
+            <div class="demo-users">
+                <p>Demo users</p>
+                <button type="button" data-user="xyz_admin" data-pass="Admin123">Hospital Admin</button>
+                <button type="button" data-user="xyz_reception" data-pass="Reception123">Receptionist</button>
+                <button type="button" data-user="xyz_doctor" data-pass="Doctor123">Doctor</button>
+                <button type="button" data-user="super_admin" data-pass="SuperAdmin123">Super Admin</button>
+                <button type="button" data-user="patient_pavan" data-pass="Patient123">Patient</button>
+            </div>
+
+            <p class="form-message" id="login-message"></p>
+        </main>
+    </div>
+
+    <script src="js/hospital-api.js"></script>
+    <script src="js/hospital-login.js"></script>
+</body>
+</html>

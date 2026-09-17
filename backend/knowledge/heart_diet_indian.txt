@@ -1,0 +1,146 @@
+[CHUNK_START]
+TOPIC: heart_diet_importance
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart diet importance, cholesterol, blood pressure, heart healthy eating
+
+WHY DIET IS IMPORTANT FOR HEART HEALTH:
+A heart-friendly diet can help manage cholesterol, blood pressure, body weight and blood sugar.
+Eating too much salt, fried food, processed food, sugary drinks and unhealthy fat can increase heart risk over time.
+A healthy eating pattern can reduce the chance of plaque buildup and support better blood vessel health.
+Diet works best along with physical activity, sleep, stress management, tobacco avoidance and medicines when prescribed.
+Diet should not replace medical treatment for heart disease.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_best_foods_indian
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart healthy foods Indian, dal legumes, whole grains, leafy greens
+
+HEART HEALTHY FOODS IN INDIAN DIET:
+Dals and legumes such as moong dal, masoor dal, toor dal, chana and rajma provide fiber and protein.
+Whole grains such as brown rice, ragi, jowar, bajra, whole-wheat roti and oats can support cholesterol and blood pressure control when portions are sensible.
+Leafy greens such as palak, methi and cabbage provide fiber, potassium and micronutrients.
+Vegetables should fill a large part of the plate. Steam, boil or lightly saute instead of deep frying.
+Fruits such as papaya, apple, orange, pomegranate and amla can be included in sensible portions.
+Fermented foods such as idli, dosa, dhokla and buttermilk can be included when prepared with less oil and salt.
+Healthy oils such as mustard, groundnut, sesame or olive oil should still be used in small amounts.
+Nuts and seeds can be used as a small handful, not unlimited portions.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_south_indian_diet_plan
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: south indian heart diet, idli sambar, ragi dosa, brown rice rasam
+
+SOUTH INDIAN HEART PATIENT DIET PLAN:
+Breakfast: Idli with sambar using less oil, or vegetable oats upma.
+Mid-morning: Fresh fruit or sundal.
+Lunch: Brown rice in controlled portion with rasam, poriyal and salad, or ragi dosa with vegetable kootu.
+Evening snack: Roasted chana, sprouts or buttermilk without added salt.
+Dinner: Ragi dosa with vegetable kootu, or millet khichdi with curd and light vegetable curry.
+Use minimal oil in cooking.
+Limit ghee roast, excess chutney, fried snacks and salty packaged foods.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_north_indian_diet_plan
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: north indian heart diet, roti dal, poha, millet khichdi
+
+NORTH INDIAN HEART PATIENT DIET PLAN:
+Breakfast: Vegetable poha, oats upma or moong dal chilla.
+Mid-morning: Fresh fruit like papaya, apple or pomegranate.
+Lunch: 2 rotis with dal, sabzi and salad.
+Evening snack: Roasted chana, sprouts, buttermilk or fruit in controlled portion.
+Dinner: Millet khichdi with curd and light vegetable curry, or roti with dal and sabzi.
+Use whole-wheat roti instead of maida.
+Choose brown rice or millets in controlled portions.
+Use less oil and avoid cream-based gravies like dal makhani with butter.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_veg_nonveg_breakfast_lunch
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart diet vegetarian non vegetarian breakfast lunch snack
+
+HEART DIET VEGETARIAN AND NON-VEGETARIAN OPTIONS:
+Breakfast vegetarian: 2 steamed idlis with mint chutney, vegetable oats upma, poha with vegetables or moong dal chilla.
+Breakfast non-vegetarian: Boiled eggs with whole-wheat toast, or ragi dosa with a lightly cooked chicken side when suitable.
+Mid-morning vegetarian: Roasted chana, almonds in small quantity, fruit or buttermilk.
+Mid-morning non-vegetarian: Clear chicken soup without cream or excess salt.
+Lunch vegetarian: Brown rice or roti with moong dal, vegetable sambar, beans poriyal, salad and low-fat curd.
+Lunch non-vegetarian: Grilled fish or skinless chicken with vegetables and a small portion of brown rice or roti.
+Use little oil and avoid deep frying.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_veg_nonveg_snack_dinner
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart diet evening snack dinner vegetarian non vegetarian
+
+HEART DIET EVENING SNACK AND DINNER OPTIONS:
+Evening snack vegetarian: Sprouts salad with lemon dressing, buttermilk without added salt, roasted chana or fruit.
+Evening snack non-vegetarian: Boiled egg or grilled fish in a small portion when suitable.
+Dinner vegetarian: Kootu with vegetables, ragi roti, millet dosa, vegetable soup or light dal.
+Dinner non-vegetarian: Millet chapati or dosa with grilled skinless chicken or fish prepared with little oil.
+Keep dinner light and avoid heavy late-night meals.
+Avoid heavy biryani, fried rice, salty snacks and cream-based gravies at night.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_weekly_plan
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart weekly plan, 7 day heart diet, weekly heart healthy meals
+
+WEEKLY HEART HEALTHY MEAL PLAN:
+Monday: Breakfast oats with nuts, lunch brown rice with rasam and poriyal, dinner ragi roti with dal and vegetable curry.
+Tuesday: Breakfast idli sambar with less oil, lunch 2 rotis with dal and sabzi, dinner millet khichdi with curd.
+Wednesday: Breakfast vegetable upma, lunch brown rice with fish or dal and steamed vegetables, dinner vegetable soup with rotis.
+Thursday: Breakfast moong dal chilla, lunch rajma with brown rice and salad, dinner ragi dosa with kootu.
+Friday: Breakfast vegetable poha, lunch rotis with palak paneer made with less cream, dinner light dal rice.
+Saturday: Breakfast fruit with seeds, lunch grilled fish or chana with brown rice and sambar, dinner millet dosa with vegetable curry.
+Sunday: Breakfast whole-grain toast, lunch chicken curry or dal with brown rice, dinner khichdi with curd.
+Daily habits: Walk 30 minutes when medically safe, sleep 7 to 8 hours, avoid smoking, limit salt and check blood pressure and cholesterol regularly.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_foods_to_limit
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart foods avoid, fried snacks, ghee butter, sweets, junk food, salt
+
+FOODS TO LIMIT FOR HEART PATIENTS:
+Deep-fried snacks such as vadas, pakoras and samosas can add unhealthy fats and excess calories.
+Excess ghee, butter, vanaspati and cream can increase saturated fat intake.
+Sweets such as jalebi, mysore pak and payasam are high in sugar and calories.
+Maida items such as white bread and bakery snacks offer little fiber.
+Packaged junk foods are often high in salt and preservatives.
+Processed meats can be high in sodium and unhealthy fats.
+Sugary drinks and sodas can increase calories and triglycerides.
+Choose fresh home-cooked meals with less oil and salt whenever possible.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_lifestyle_habits
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart lifestyle, exercise, sleep, stress, smoking, blood pressure
+
+DAILY HABITS FOR HEART HEALTH:
+Walk or do moderate activity regularly when medically safe.
+Aim for 150 minutes of moderate physical activity per week if cleared by a doctor.
+Sleep 7 to 8 hours when possible because poor sleep can affect blood pressure and metabolism.
+Practice yoga, breathing exercises or relaxation techniques to reduce stress.
+Avoid smoking and tobacco completely.
+Limit alcohol according to medical advice.
+Check blood pressure and cholesterol regularly.
+If you have diabetes, high blood pressure, high cholesterol or previous heart disease, follow a personalized plan from a clinician.
+Small and consistent changes in diet and lifestyle can make a meaningful difference over time.
+[CHUNK_END]

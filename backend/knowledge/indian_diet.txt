@@ -1,0 +1,187 @@
+[CHUNK_START]
+TOPIC: indian_diabetic_diet_overview
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: indian diet, diabetes, meal plan, Indian food, portion control
+
+INDIAN DIET PLAN FOR DIABETES:
+Indian food can support diabetes management when portions and cooking methods are chosen carefully.
+Key changes include using more vegetables, dal and protein, and smaller portions of rice or roti.
+Prefer whole-wheat roti, brown rice or millets instead of maida foods and large white rice portions.
+Use less oil and avoid deep-fried snacks.
+Traditional spices like turmeric, methi and cinnamon can be used in normal cooking amounts for flavor, but they do not cure diabetes.
+Portion control is very important in Indian diet management.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetic_morning_routine
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: morning routine, diabetes, fasting, early morning, methi, lemon water
+
+DIABETIC MORNING ROUTINE:
+A simple morning routine can support regular eating habits.
+Start with water after waking.
+Some people use soaked methi seeds, lemon water, soaked almonds or walnuts as part of breakfast planning, but these should not replace medicines or medical advice.
+Avoid tea or coffee with sugar first thing in the morning.
+Eat breakfast within about 1 hour of waking when possible.
+If you take diabetes medicines or insulin, meal timing should follow your doctor's advice to avoid low blood sugar.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetic_breakfast_indian
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: breakfast, diabetes, Indian breakfast, healthy morning meal
+
+INDIAN DIABETIC BREAKFAST OPTIONS:
+Good breakfast choices include ragi dosa or ragi idli, oats upma, oats idli, moong dal chilla, vegetable poha, sprouts salad, whole-wheat toast with peanut butter in a small portion, or idli with sambar.
+Ragi and oats provide fiber, but portion size still matters.
+Moong dal chilla and sprouts add protein.
+Use less oil and avoid sugary tea or coffee.
+Avoid white bread, paratha with butter, sugary cereals and cornflakes with sugar.
+Try to include protein, fiber and controlled carbohydrates in breakfast.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetic_lunch_indian
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: lunch, diabetes, Indian lunch, dal rice roti, plate method
+
+INDIAN DIABETIC LUNCH OPTIONS:
+A practical lunch plate can include half plate vegetables, quarter plate protein such as dal or chana, and quarter plate grain such as roti, brown rice or millet.
+Better grain options include 1 to 2 small whole-wheat rotis, a small portion of brown rice, jowar, bajra or ragi.
+Good dal options include moong dal, masoor dal, chana dal, rajma and chole.
+Good vegetable curries include bhindi, lauki, tinda, karela, methi and palak.
+Include salad such as cucumber, tomato and carrot.
+Plain curd can be included if suitable.
+Avoid large rice portions, fried items like pakora or samosa, and creamy gravies.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetic_evening_snacks
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: snacks, diabetes, evening snacks, healthy snacks Indian
+
+INDIAN DIABETIC EVENING SNACK OPTIONS:
+Healthy snack choices include roasted chana, sprouts chaat, makhana, plain buttermilk, green tea without sugar, or a small handful of nuts.
+Fruit options can include a small guava, apple, pear, papaya or berries.
+Limit biscuits, namkeen, chips, samosa, pakora and tea with sugar.
+Evening snack timing around 4 to 5 pm may help avoid overeating at dinner.
+Portion size matters even for healthy snacks.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetic_dinner_indian
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: dinner, diabetes, Indian dinner, light dinner
+
+INDIAN DIABETIC DINNER OPTIONS:
+Dinner is usually better when it is lighter than lunch.
+Good options include 1 to 2 whole-wheat rotis with dal and sabzi, vegetable soup with roti, mixed vegetable curry with roti, or moong dal khichdi with vegetables in a controlled portion.
+If non-vegetarian, grilled or baked fish or chicken can be used when suitable.
+Try to eat dinner before late night and keep a gap before sleep.
+Avoid heavy biryani, fried rice, butter-rich dal makhani and cream-based gravies.
+Check glucose response because dinner tolerance differs from person to person.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetic_weekly_plan
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: weekly meal plan, diabetes, 7 day plan, Indian
+
+SAMPLE WEEKLY INDIAN DIABETIC MEAL PLAN:
+Monday: Breakfast ragi idli, lunch brown rice with dal and palak, dinner wheat roti with bhindi.
+Tuesday: Breakfast oats upma, lunch jowar roti with dal and methi sabzi, dinner khichdi with curd.
+Wednesday: Breakfast moong dal chilla, lunch brown rice with rajma, dinner wheat roti with lauki.
+Thursday: Breakfast sprouts salad with toast, lunch bajra roti with dal, dinner vegetable soup with roti.
+Friday: Breakfast poha with sprouts, lunch brown rice with fish curry or dal, dinner wheat roti with dal.
+Saturday: Breakfast idli sambar, lunch quinoa or millet vegetable curry, dinner khichdi with curd.
+Sunday: Breakfast vegetable uttapam, lunch brown rice with chicken curry or chana, dinner light dal roti.
+Adjust portions based on glucose readings, body weight, medicines and doctor or dietitian advice.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_diet_indian_overview
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart disease, Indian diet, heart healthy food, Indian
+
+INDIAN DIET PLAN FOR HEART DISEASE:
+Indian cooking can be made heart-friendly with simple changes.
+Use less oil and prefer steaming, boiling, grilling or light sauteing instead of deep frying.
+Limit ghee, butter, vanaspati, cream and fried snacks.
+Reduce salt and packaged foods.
+Increase vegetables, fruits, dal, legumes and whole grains.
+Use garlic, ginger, turmeric and other spices for flavor, but not as replacements for medicines.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_breakfast_indian
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart disease breakfast, Indian morning, oats, heart healthy
+
+HEART HEALTHY INDIAN BREAKFAST:
+Good options include oats porridge, vegetable upma, idli with sambar, moong dal chilla, fruit with seeds, poha with vegetables, or whole-grain toast.
+Use minimal oil.
+Add vegetables where possible.
+Nuts and seeds can be included in small portions.
+Avoid butter toast, puri bhaji, paratha with butter and sugary cereals.
+If you have diabetes along with heart disease, fruit and grain portions should be controlled.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_lunch_dinner_indian
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart disease lunch dinner, Indian meals, low cholesterol
+
+HEART HEALTHY INDIAN LUNCH AND DINNER:
+A heart-friendly plate can include half plate vegetables, quarter plate protein such as dal, chana, fish, skinless chicken or tofu, and quarter plate whole grain.
+Better grains include whole-wheat roti, brown rice, jowar, bajra, ragi and quinoa.
+Use less oil and avoid ghee, butter and cream.
+Dinner should be light, such as vegetable soup, dal and 1 to 2 rotis.
+Fish 1 to 2 times per week can provide omega-3 fats when suitable.
+Avoid fried snacks, red meat, full-fat dairy and excess salt.
+South Indian options include rasam, sambar and kootu with minimal oil.
+North Indian options include dal, palak paneer with less cream and mixed vegetable curry.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_indian_supportive_foods
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: Indian supportive foods, heart, garlic, turmeric, nuts, seeds
+
+SUPPORTIVE INDIAN FOODS FOR HEART HEALTH:
+No single food can prevent or cure heart disease, but a healthy eating pattern can reduce risk.
+Garlic, ginger and turmeric can be used in normal cooking amounts for flavor and variety.
+Flaxseeds and nuts provide healthy fats and fiber, but portions should be small.
+Amla and seasonal fruits can be included as part of a fruit and vegetable rich diet.
+Herbal or Ayurvedic products such as arjuna, ashwagandha or triphala should be used only after checking with a qualified clinician, especially if the person takes heart, blood pressure or blood thinner medicines.
+The main heart-healthy pattern is more vegetables, fruits, legumes, whole grains and nuts, with less salt, sugar, saturated fat and trans fat.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: general_indian_diet_tips
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: general tips, Indian diet, healthy eating, lifestyle
+
+GENERAL INDIAN HEALTHY EATING TIPS:
+Use cooking oil in small amounts.
+Reduce salt, especially if blood pressure is high.
+Use spices like turmeric, cumin, coriander and methi seeds in normal cooking amounts for flavor.
+Drink enough water unless a doctor has restricted fluids.
+Eat meals at regular times.
+Use smaller plates for portion control.
+Prefer home-cooked meals and limit street food or packaged snacks.
+During festivals, plan ahead and keep sweets in small portions.
+Walking, yoga or other physical activity can support health when medically safe.
+Good sleep and stress management support blood sugar and heart health.
+[CHUNK_END]

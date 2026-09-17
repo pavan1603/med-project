@@ -1,0 +1,144 @@
+[CHUNK_START]
+TOPIC: diabetes_overview
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: diabetes, blood sugar, glucose, insulin, pancreas, type 1, type 2, prediabetes
+
+Diabetes is a chronic health condition that happens when the pancreas does not produce enough insulin or when the body cannot use insulin effectively.
+Insulin helps move glucose from the blood into body cells for energy.
+Common types include Type 1 diabetes, Type 2 diabetes, prediabetes and gestational diabetes.
+Type 2 diabetes is the most common form and is often linked with insulin resistance.
+Type 1 diabetes happens when the immune system damages insulin-producing cells in the pancreas.
+Prediabetes means blood sugar is higher than normal but not yet in the diabetes range.
+Diabetes should be confirmed with medical testing such as fasting glucose, HbA1c or oral glucose tolerance test.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: glucose_levels
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: glucose, blood sugar, mg/dL, fasting, threshold, HbA1c
+
+Healthy blood glucose guidance:
+Normal fasting glucose is usually below 100 mg/dL.
+Prediabetes fasting glucose is usually 100 to 125 mg/dL.
+Fasting glucose of 126 mg/dL or higher is in the diabetes range and should be confirmed with repeat or additional medical testing.
+Normal 2-hour post-meal glucose is usually below 140 mg/dL.
+Post-meal glucose of 200 mg/dL or higher may suggest diabetes and needs medical evaluation.
+HbA1c below 5.7% is usually normal.
+HbA1c 5.7% to 6.4% suggests prediabetes.
+HbA1c 6.5% or higher suggests diabetes and should be confirmed by a qualified clinician.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_causes_simple
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: reasons for diabetes, causes of diabetes, why diabetes, insulin resistance, family history
+
+Diabetes can happen for different reasons depending on the type.
+Type 2 diabetes is commonly linked to insulin resistance, excess body weight, low physical activity, family history, aging and unhealthy eating patterns.
+Type 1 diabetes happens when the immune system attacks insulin-producing cells in the pancreas. It is not caused by eating sugar.
+Prediabetes happens when blood sugar is higher than normal but not yet in the diabetes range.
+Gestational diabetes can happen during pregnancy because of hormonal changes.
+Some medicines, pancreatic disease, hormone problems, long-term stress and poor sleep can also affect blood sugar.
+Eating too much sugar alone does not directly cause diabetes, but sugary drinks, refined carbohydrates and weight gain can increase risk over time.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: bmi_obesity
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: BMI, obesity, weight, body mass index, insulin resistance
+
+BMI and body weight can affect diabetes risk.
+BMI below 18.5 is underweight.
+BMI 18.5 to 24.9 is usually considered a healthier range.
+BMI 25 to 29.9 is overweight and may increase diabetes risk.
+BMI 30 or higher is obesity and can increase insulin resistance.
+Higher body weight, especially around the waist, can make it harder for insulin to work well.
+Even modest weight loss can improve insulin sensitivity for many people with overweight or obesity.
+BMI is only a screening measure and should be interpreted with age, muscle mass, waist size and medical history.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: age_family_history_risk
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: age, family history, diabetes pedigree, risk factors
+
+Diabetes risk can increase with age, especially after 40 to 45 years.
+Family history can increase risk, especially if a parent or sibling has Type 2 diabetes.
+South Asian people can develop Type 2 diabetes at lower BMI compared with some other populations.
+A history of gestational diabetes, polycystic ovary syndrome, high blood pressure or abnormal cholesterol can also increase risk.
+Risk factors do not confirm diabetes, but they show who should be screened more carefully.
+Regular screening is useful when risk factors are present.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_risk_factors
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: risk factors, glucose, BMI, age, insulin, blood pressure, lifestyle
+
+Important diabetes risk factors include:
+High fasting or post-meal glucose.
+HbA1c in the prediabetes or diabetes range.
+Overweight or obesity, especially abdominal obesity.
+Low physical activity.
+Family history of diabetes.
+Increasing age.
+History of gestational diabetes or PCOS.
+High blood pressure or abnormal cholesterol.
+Smoking, poor sleep and chronic stress may also worsen metabolic health.
+These risk factors should be used for screening and guidance, not for self-diagnosis.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_symptoms
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: symptoms, signs, warning, urination, thirst, fatigue, blurred vision
+
+Warning signs and symptoms of diabetes can include:
+Frequent urination, especially at night.
+Excessive thirst and dry mouth.
+Unexplained weight loss.
+Extreme fatigue or weakness.
+Blurred vision.
+Slow healing cuts, wounds or bruises.
+Frequent infections.
+Tingling or numbness in hands and feet.
+Dark patches of skin around the neck or armpits.
+Some people have diabetes without clear symptoms, so testing is important when risk factors are present.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_prevention
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: prevention, lifestyle, diet, exercise, healthy weight, risk reduction
+
+Diabetes prevention focuses on steady lifestyle habits.
+Maintain a healthy weight or work toward gradual weight loss if overweight.
+Aim for at least 150 minutes of moderate physical activity per week when medically safe.
+Choose vegetables, legumes, whole grains, fruits in controlled portions and lean proteins.
+Limit sugary drinks, sweets, refined carbohydrates and deep-fried foods.
+Avoid smoking.
+Sleep well and manage stress.
+Check blood glucose regularly if you are above 40 or have risk factors.
+Prediabetes can often improve with lifestyle changes and follow-up care.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_when_to_see_doctor
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: doctor, testing, fasting glucose, HbA1c, emergency, high sugar
+
+See a qualified doctor for confirmatory testing if fasting glucose is 126 mg/dL or higher, HbA1c is 6.5% or higher, or random glucose is very high with symptoms.
+Ask for medical advice if you have excessive thirst, frequent urination, unexplained weight loss, blurred vision, fatigue or slow healing wounds.
+Seek urgent care if very high blood sugar occurs with vomiting, confusion, severe weakness, dehydration, deep breathing or drowsiness.
+Do not start, stop or change diabetes medicines without medical guidance.
+MediRisk can support education and risk awareness, but it cannot diagnose diabetes.
+[CHUNK_END]

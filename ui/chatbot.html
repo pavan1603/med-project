@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediRisk — AI Medical Chatbot</title>
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-wrap">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">Medi<span>Risk</span></a>
+        <div class="nav-center">
+            <span class="nav-status">
+                <span class="status-dot"></span>
+                AI Assistant
+            </span>
+        </div>
+        <div class="nav-right">
+            <select class="language-select" id="language-select" onchange="setSelectedLanguage(this.value)">
+                <option value="en">English</option>
+                <option value="te">తెలుగు</option>
+                <option value="hi">हिन्दी</option>
+            </select>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </button>
+            <a href="index.html" class="btn-back">
+                <i class="fas fa-arrow-left"></i> Back
+            </a>
+        </div>
+    </nav>
+
+    <div class="chat-layout">
+        <div class="sidebar">
+            <button class="btn-new-chat" onclick="newChat()">
+                <i class="fas fa-plus"></i> New Chat
+            </button>
+
+            <div class="sidebar-section">
+                <p class="sidebar-label">PREDICT</p>
+                <button class="sidebar-btn" onclick="showPredictForm('diabetes')">
+                    <i class="fas fa-tint"></i> Diabetes Risk
+                </button>
+                <button class="sidebar-btn" onclick="showPredictForm('heart')">
+                    <i class="fas fa-heartbeat"></i> Heart Disease
+                </button>
+            </div>
+
+            <div class="sidebar-section">
+                <p class="sidebar-label">DIET PLANS</p>
+                <button class="sidebar-btn" onclick="quickAsk('What foods are good for diabetes?')">
+                    <i class="fas fa-apple-alt"></i> Foods for Diabetes
+                </button>
+                <button class="sidebar-btn" onclick="quickAsk('What foods are good for heart health?')">
+                    <i class="fas fa-carrot"></i> Foods for Heart
+                </button>
+                <button class="sidebar-btn" onclick="quickAsk('Give me an Indian diet plan for diabetes')">
+                    <i class="fas fa-utensils"></i> Indian Diabetic Diet
+                </button>
+                <button class="sidebar-btn" onclick="quickAsk('Give me an Indian diet plan for heart disease')">
+                    <i class="fas fa-utensils"></i> Indian Heart Diet
+                </button>
+            </div>
+
+            <div class="sidebar-section">
+                <p class="sidebar-label">QUICK QUESTIONS</p>
+                <button class="sidebar-btn" onclick="quickAsk('What are symptoms of diabetes?')">
+                    <i class="fas fa-question-circle"></i> Diabetes Symptoms
+                </button>
+                <button class="sidebar-btn" onclick="quickAsk('What are warning signs of heart disease?')">
+                    <i class="fas fa-question-circle"></i> Heart Warning Signs
+                </button>
+                <button class="sidebar-btn" onclick="quickAsk('What is normal blood glucose level?')">
+                    <i class="fas fa-question-circle"></i> Normal Glucose
+                </button>
+                <button class="sidebar-btn" onclick="quickAsk('What nutrients help control blood sugar?')">
+                    <i class="fas fa-question-circle"></i> Key Nutrients
+                </button>
+            </div>
+        </div>
+
+        <div class="chat-main">
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <div class="message-bubble">
+                            <p id="welcome-message">Hello! 😊 I'm <strong>MediRisk AI</strong></p>
+                        </div>
+                        <span class="message-time">Just now</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="predict-form" id="predict-form" style="display:none;">
+                <div class="form-header">
+                    <h3 id="form-title">Risk Assessment</h3>
+                    <button onclick="closePredictForm()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="form-body" id="form-body"></div>
+                <div class="form-footer">
+                    <button class="btn-predict" onclick="submitPrediction()">
+                        <i class="fas fa-microscope"></i> Analyze
+                    </button>
+                </div>
+            </div>
+
+            <div class="chat-input-area">
+                <div class="input-wrapper">
+                    <input type="text" id="chat-input"
+                           placeholder="Ask me about diabetes, heart disease, diet plans..."
+                           onkeypress="handleKeyPress(event)"/>
+                    <button class="btn-send" onclick="sendMessage()">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <p class="input-disclaimer">⚠️ Not a substitute for professional medical advice</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/chatbot.js"></script>
+</body>
+</html>

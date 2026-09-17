@@ -1,0 +1,178 @@
+[CHUNK_START]
+TOPIC: medirisk_overview
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: MediRisk, AI, machine learning, prediction, medical analysis
+
+MediRisk is an AI powered medical analysis system.
+It uses XGBoost machine learning models trained on real medical datasets.
+MediRisk predicts diabetes risk, classifies diabetes types and detects heart disease.
+Diabetes prediction model accuracy: 95.07% trained on 70,000 patients.
+Heart disease detection model accuracy: 92.93% trained on 920 patients.
+MediRisk is not a substitute for professional medical advice.
+Always consult a qualified doctor for medical diagnosis and treatment.
+MediRisk uses RAG technology to answer medical questions accurately.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: glucose_guidelines
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: glucose, blood sugar, normal, fasting, mg/dL
+
+Healthy blood glucose guidelines:
+Normal fasting glucose: 70 to 100 mg/dL.
+Normal post meal glucose: below 140 mg/dL.
+Prediabetes fasting glucose: 100 to 125 mg/dL.
+Diabetes fasting glucose: 126 mg/dL or higher.
+Hypoglycemia low blood sugar: below 70 mg/dL — dangerous.
+Hyperglycemia high blood sugar: above 180 mg/dL — dangerous.
+HbA1c normal: below 5.7%.
+HbA1c prediabetes: 5.7 to 6.4%.
+HbA1c diabetes: 6.5% or higher.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: bmi_guidelines
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: BMI, body mass index, underweight, normal, overweight, obese
+
+Healthy BMI ranges:
+Underweight: BMI below 18.5 — may indicate malnutrition.
+Normal weight: BMI 18.5 to 24.9 — healthy range.
+Overweight: BMI 25 to 29.9 — moderate health risk.
+Obese Class 1: BMI 30 to 34.9 — high health risk.
+Obese Class 2: BMI 35 to 39.9 — very high health risk.
+Obese Class 3: BMI 40 and above — extremely high health risk.
+BMI above 30 significantly increases diabetes and heart disease risk.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: blood_pressure_guidelines
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: blood pressure, normal, high, hypertension, mmHg, systolic
+
+Healthy blood pressure ranges:
+Normal: below 120/80 mmHg — ideal range.
+Elevated: 120 to 129 systolic — lifestyle changes needed.
+High Stage 1: 130 to 139 systolic — monitor closely.
+High Stage 2: 140 or higher systolic — medication may be needed.
+Hypertensive crisis: above 180 systolic — seek emergency care.
+Low blood pressure hypotension: below 90/60 mmHg.
+High blood pressure increases risk of heart disease stroke and kidney disease.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: cholesterol_guidelines
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: cholesterol, normal, LDL, HDL, triglycerides, mg/dL
+
+Healthy cholesterol levels:
+Total cholesterol normal: below 200 mg/dL.
+Total cholesterol borderline: 200 to 239 mg/dL.
+Total cholesterol high: 240 mg/dL and above.
+LDL bad cholesterol normal: below 100 mg/dL.
+LDL borderline: 130 to 159 mg/dL.
+LDL high: 160 mg/dL and above.
+HDL good cholesterol healthy: above 60 mg/dL.
+HDL low risk: below 40 mg/dL for men, below 50 mg/dL for women.
+Triglycerides normal: below 150 mg/dL.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_warning_signs
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: diabetes symptoms, warning signs, urination, thirst, fatigue
+
+Warning signs of diabetes:
+Frequent urination especially at night — polyuria.
+Excessive thirst and dry mouth — polydipsia.
+Unexplained weight loss despite eating normally.
+Extreme fatigue and weakness throughout the day.
+Blurred vision that comes and goes.
+Slow healing cuts bruises and wounds.
+Frequent infections of skin gums or bladder.
+Tingling or numbness in hands and feet — neuropathy.
+Dark patches of skin around neck and armpits — acanthosis nigricans.
+If you experience these symptoms, consult a qualified doctor for evaluation.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_warning_signs
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: heart disease symptoms, warning signs, chest pain, shortness of breath
+
+Warning signs of heart disease:
+Chest pain pressure tightness or discomfort.
+Shortness of breath during rest or mild activity.
+Pain radiating to left arm jaw neck or back.
+Dizziness or lightheadedness especially during activity.
+Irregular heartbeat or palpitations.
+Swelling in legs ankles and feet — edema.
+Unusual fatigue with minimal physical effort.
+Cold sweats and nausea without obvious cause.
+Seek emergency medical help immediately if these symptoms occur.
+Do not ignore chest pain — it could be a heart attack.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_prevention
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: diabetes prevention, lifestyle, diet, exercise, healthy weight
+
+Diabetes prevention guidelines:
+Maintain healthy weight with BMI below 25.
+Exercise at least 30 minutes daily — walking cycling or swimming.
+Eat balanced diet low in sugar and refined carbohydrates.
+Choose whole grains over white rice and white bread.
+Eat plenty of vegetables fruits and lean proteins.
+Avoid sugary drinks sodas and fruit juices.
+Avoid smoking completely — smoking increases diabetes risk by 30 to 40 percent.
+Limit alcohol consumption.
+Monitor blood glucose regularly especially after age 40.
+Get regular medical checkups every 6 to 12 months.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_prevention
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: heart disease prevention, lifestyle, diet, exercise, healthy
+
+Heart disease prevention guidelines:
+Maintain healthy blood pressure below 120/80 mmHg.
+Keep total cholesterol below 200 mg/dL.
+Exercise regularly at least 150 minutes per week.
+Eat heart healthy foods — fruits vegetables whole grains and fish.
+Avoid saturated fats trans fats and processed foods.
+Avoid smoking completely — smoking doubles heart disease risk.
+Limit alcohol to moderate levels — one drink per day for women two for men.
+Manage stress through meditation yoga or relaxation techniques.
+Get regular heart checkups especially after age 40.
+Maintain healthy weight and BMI below 25.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: when_to_see_doctor
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: doctor, emergency, medical help, symptoms, urgent
+
+When to seek medical attention:
+See a doctor for confirmatory testing if fasting glucose is 126 mg/dL or higher.
+See a doctor if blood pressure consistently above 140/90 mmHg.
+See a doctor if BMI is above 35.
+Seek emergency care for chest pain lasting more than a few minutes.
+Seek emergency care for sudden severe headache or vision changes.
+Seek emergency care for sudden numbness or weakness on one side of body.
+Get tested for diabetes if you have two or more risk factors.
+Get heart checkup if you are male above 45 or female above 55.
+Regular screening is recommended for all adults above 40 years.
+MediRisk predictions should always be confirmed by a qualified doctor.
+[CHUNK_END]

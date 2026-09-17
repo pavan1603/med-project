@@ -1,0 +1,172 @@
+[CHUNK_START]
+TOPIC: heart_disease_overview
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart disease, cardiac, cardiovascular, overview, arteries
+
+Heart disease is a group of conditions that affect the heart and blood vessels.
+Coronary artery disease happens when blood vessels supplying the heart become narrowed or blocked.
+Common risk factors include high blood pressure, high cholesterol, diabetes, smoking, unhealthy diet, physical inactivity, obesity, age and family history.
+Heart disease risk can often be reduced with healthy habits, medical screening and treatment when needed.
+Chest pain, breathlessness, fainting or pain spreading to the arm, jaw, neck or back should be treated seriously.
+MediRisk can support risk awareness, but heart disease diagnosis needs medical evaluation.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_simple_risk_factors
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart risk factors, high BP, cholesterol, diabetes, smoking, family history
+
+Important heart disease risk factors include:
+High blood pressure.
+High LDL cholesterol or high total cholesterol.
+Diabetes or high blood sugar.
+Smoking or tobacco use.
+Low physical activity.
+Unhealthy diet high in salt, fried foods, processed foods or excess sugar.
+Overweight or obesity.
+Family history of heart disease.
+Increasing age.
+Long-term stress and poor sleep may also affect heart health.
+Having risk factors does not confirm heart disease, but it means screening and prevention are important.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: age_gender_heart_risk
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: age, gender, male, female, heart disease risk
+
+Heart disease risk generally increases with age.
+Men often develop heart disease risk earlier than women, but women also have significant risk, especially after menopause.
+Family history of early heart disease increases risk for both men and women.
+Age and gender are only screening factors. Symptoms, blood pressure, cholesterol, diabetes, smoking and medical tests are also important.
+Women may sometimes have less typical symptoms such as breathlessness, fatigue, nausea, back pain or jaw pain.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: cholesterol_guidelines
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: cholesterol, normal, borderline, high, LDL, HDL, triglycerides
+
+Cholesterol guidance:
+Total cholesterol below 200 mg/dL is usually considered desirable.
+Total cholesterol 200 to 239 mg/dL is borderline high.
+Total cholesterol 240 mg/dL or higher is high.
+LDL is often called bad cholesterol because high LDL can contribute to plaque buildup in arteries.
+HDL is often called good cholesterol because higher HDL can be protective.
+Triglycerides are another blood fat that can increase heart risk when high.
+Cholesterol results should be reviewed with a doctor because targets may differ for people with diabetes, heart disease or high risk.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: blood_pressure_guidelines
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: blood pressure, normal, high, hypertension, mmHg
+
+Blood pressure guidance:
+Normal blood pressure is usually below 120/80 mmHg.
+Elevated blood pressure is 120 to 129 systolic with diastolic below 80.
+High blood pressure Stage 1 is usually 130 to 139 systolic or 80 to 89 diastolic.
+High blood pressure Stage 2 is usually 140 or higher systolic or 90 or higher diastolic.
+Blood pressure above 180 systolic or 120 diastolic can be a crisis, especially with symptoms, and needs urgent medical care.
+High blood pressure can damage artery walls and increase risk of heart disease, stroke and kidney disease.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: blocked_vessels_explained
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: blocked vessels, arteries, coronary, blockage, angiography
+
+Blocked heart vessels mean the arteries supplying the heart may be narrowed by plaque.
+This can reduce blood flow to the heart muscle.
+Blocked vessels may cause chest pain, breathlessness, fatigue or heart attack, but some people may have few symptoms.
+Tests such as ECG, stress test, echocardiogram, CT coronary angiography or coronary angiography may be used depending on the case.
+The number and severity of blocked vessels should be interpreted by a cardiologist.
+AI screening cannot confirm blocked vessels.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: exercise_chest_pain
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: exercise pain, angina, chest pain, physical activity, breathlessness
+
+Chest pain, tightness, pressure or breathlessness during walking, climbing stairs or exercise can be a warning sign.
+This may happen when the heart is not getting enough blood during activity.
+Stop activity and rest if symptoms occur.
+Seek urgent medical care if chest pain is severe, lasts more than a few minutes, occurs at rest, or comes with sweating, faintness, nausea or pain spreading to arm, jaw, neck or back.
+Do not start strenuous exercise if you have chest pain or unexplained breathlessness until a doctor clears you.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_warning_signs
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: symptoms, warning signs, chest pain, shortness of breath, emergency
+
+Warning signs of heart disease or heart attack can include:
+Chest pain, pressure, heaviness, squeezing or tightness.
+Shortness of breath at rest or with mild activity.
+Pain spreading to the arm, jaw, neck, shoulder or back.
+Dizziness, fainting or sudden weakness.
+Irregular heartbeat or palpitations.
+Swelling in legs, ankles or feet.
+Unusual fatigue with minimal effort.
+Cold sweats, nausea or vomiting without clear cause.
+Seek emergency medical help immediately if chest pain or severe breathlessness occurs.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_tests_explained
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: ECG, echo, stress test, cholesterol, troponin, angiography
+
+Common heart tests include:
+Blood pressure measurement to check hypertension.
+Cholesterol and triglyceride tests to assess blood fats.
+Blood sugar or HbA1c because diabetes increases heart risk.
+ECG to check heart rhythm and possible signs of heart strain or heart attack.
+Echocardiogram to assess heart pumping and valves.
+Stress test to check how the heart responds to activity.
+Troponin blood test when heart attack is suspected.
+Angiography or CT coronary angiography to look for narrowed or blocked arteries.
+A doctor chooses tests based on symptoms, risk factors and examination.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_prevention
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: prevention, lifestyle, diet, exercise, healthy heart, smoking
+
+Heart disease prevention tips:
+Keep blood pressure under control.
+Manage cholesterol with lifestyle and medicines when prescribed.
+Control diabetes and blood sugar.
+Avoid smoking and tobacco completely.
+Aim for at least 150 minutes of moderate activity per week when medically safe.
+Eat more vegetables, fruits, legumes, whole grains and lean proteins.
+Limit salt, fried foods, processed foods, sugary drinks and excess alcohol.
+Maintain a healthy weight.
+Sleep well and manage stress.
+Get regular checkups, especially if you are above 40 or have risk factors.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: model_context_heart_prediction
+DISEASE: heart_disease
+SOURCE: model_context
+KEYWORDS: model accuracy, XGBoost, prediction, screening, limitation
+
+MediRisk may use a trained model to support heart disease risk screening.
+Model output should be treated as risk guidance, not a final diagnosis.
+A high-risk result means the user should consider medical evaluation, especially if symptoms or risk factors are present.
+A low-risk result does not rule out heart disease if symptoms are present.
+Final diagnosis requires doctor evaluation and appropriate tests.
+[CHUNK_END]

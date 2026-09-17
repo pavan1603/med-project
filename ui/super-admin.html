@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediRisk - Super Admin</title>
+    <link rel="stylesheet" href="css/super-admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <aside>
+        <h1>Medi<span>Risk</span></h1>
+        <p id="user-name">Super Admin</p>
+        <button data-view="overview" class="active">Overview</button>
+        <button data-view="hospitals">Hospitals</button>
+        <button data-view="insights">Patient Insights</button>
+        <button data-view="portal-access">Patient Portal Access</button>
+        <button data-view="activity">Audit Activity</button>
+        <button id="logout-btn">Logout</button>
+    </aside>
+    <main>
+        <header>
+            <div>
+                <small>Global Workspace</small>
+                <h2 id="page-title">Overview</h2>
+            </div>
+            <button id="theme-toggle"><i id="theme-icon" class="fas fa-moon"></i></button>
+        </header>
+        <section id="view-overview" class="view active">
+            <div class="metrics" id="metrics"></div>
+        </section>
+        <section id="view-hospitals" class="view">
+            <h3>Hospital-wise Summary</h3>
+            <div id="hospital-list" class="list"></div>
+        </section>
+        <section id="view-insights" class="view">
+            <div class="panel">
+                <h3>Patient Insights</h3>
+                <div class="row">
+                    <input id="insight-patient-id" type="number" min="1" placeholder="Patient ID">
+                    <button id="load-insights-btn">Load</button>
+                </div>
+                <div id="insight-output" class="list"></div>
+            </div>
+        </section>
+        <section id="view-portal-access" class="view">
+            <div class="panel">
+                <h3>Patient Portal Access</h3>
+                <p>View patient username and generate a new temporary password when needed.</p>
+                <div class="row">
+                    <input id="portal-patient-id" type="number" min="1" placeholder="Patient ID">
+                    <button id="load-portal-btn">Load Access</button>
+                </div>
+                <div id="portal-access-output" class="list"></div>
+            </div>
+        </section>
+        <section id="view-activity" class="view">
+            <h3>Recent Activity</h3>
+            <div id="activity-list" class="list"></div>
+        </section>
+    </main>
+    <script src="js/hospital-api.js"></script>
+    <script src="js/role-common.js"></script>
+    <script src="js/super-admin.js"></script>
+</body>
+</html>

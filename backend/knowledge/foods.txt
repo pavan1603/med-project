@@ -1,0 +1,193 @@
+[CHUNK_START]
+TOPIC: diabetes_foods_overview
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: diabetes foods, diet, blood sugar, nutrition, low glycemic
+
+FOODS THAT SUPPORT DIABETES MANAGEMENT:
+Food choices can help keep blood sugar steadier.
+Choose foods that release glucose slowly, provide fiber and support fullness.
+Helpful choices include non-starchy vegetables, legumes, whole grains in controlled portions, nuts and seeds in small amounts, low-fat curd and lean proteins.
+Avoid very large meals because large portions of even healthy carbohydrates can raise blood sugar.
+Try to eat balanced meals at regular times.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_supportive_foods
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: diabetes supportive foods, fenugreek, cinnamon, turmeric, karela, amla, moringa
+
+SUPPORTIVE FOODS AND SPICES FOR DIABETES:
+Some traditional Indian foods and spices can be part of a diabetes-friendly eating pattern, but they should not be used as a cure or replacement for medicines.
+Bitter gourd or karela can be included as a low-calorie vegetable.
+Fenugreek or methi seeds contain soluble fiber and may help slow carbohydrate absorption when used in small food amounts.
+Cinnamon can add flavor without sugar, but it should not be treated as diabetes medicine.
+Turmeric can be used in normal cooking amounts as part of a balanced diet.
+Amla and moringa leaves are nutritious foods that can be included in meals.
+Diabetes management needs diet, physical activity, monitoring and medical care when required.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_vegetables
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: vegetables, diabetes, low glycemic, fiber, non starchy vegetables
+
+VEGETABLES FOR DIABETES:
+Non-starchy vegetables are strongly recommended because they provide fiber, vitamins and minerals with relatively low calories.
+Good choices include spinach, methi leaves, cabbage, cauliflower, broccoli, tomatoes, capsicum, cucumber, bottle gourd, bitter gourd, okra and beans.
+These foods can improve meal quality and may reduce post-meal glucose rise when they replace refined carbohydrates.
+Starchy vegetables such as potato, sweet potato, tapioca and raw banana can raise blood sugar more, so portions should be controlled.
+Use steaming, boiling, grilling or light sauteing instead of deep frying.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_fruits
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: fruits, diabetes, whole fruit, portion control, glycemic impact, fruit juice
+
+FRUITS FOR DIABETES:
+People with diabetes can usually eat whole fruits in controlled portions as part of a balanced meal plan.
+Better choices include guava, apple, pear, papaya, berries, citrus fruits, pomegranate and amla.
+Prefer whole fruit instead of fruit juice because whole fruit contains fiber and is more filling.
+Higher-sugar fruits such as mango, banana, grapes, chikoo, jackfruit and dates are not automatically forbidden, but portions should be smaller and eaten less often depending on blood glucose response.
+Avoid fruit juices, sweetened fruit drinks and large fruit portions because they can raise blood sugar quickly.
+Pairing fruit with nuts, curd or a meal may reduce rapid glucose rise for some people.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_fruits_risk_reduction
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: fruits reduce diabetes risk, fiber, antioxidants, whole fruit, diabetes prevention
+
+HOW FRUITS MAY HELP REDUCE DIABETES RISK:
+Whole fruits can support diabetes prevention when they replace sweets, biscuits, fruit juice or sugary snacks.
+Fruit fiber slows digestion and may reduce sudden glucose spikes.
+Fruits provide water, vitamins, minerals and antioxidants that support overall metabolic health.
+Better choices include guava, apple, pear, papaya, berries, citrus fruits, pomegranate and amla.
+Fruit juice is not preferred because it is easier to consume too much sugar quickly.
+Fruits help as part of the full diet; they do not cure diabetes by themselves.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_grains_proteins
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: whole grains, protein, legumes, diabetes diet, dal, rice, roti
+
+GRAINS AND PROTEINS FOR DIABETES:
+Whole grains and millets can be used in controlled portions.
+Better grain choices include whole-wheat roti, brown rice, oats, barley, jowar, bajra and ragi.
+Millets and ragi can be helpful because they provide fiber, but portion size still matters.
+Dal, chana, rajma, sprouts and other legumes provide protein and fiber.
+Eggs, fish, lean chicken, tofu, paneer in controlled portions and low-fat curd can support protein intake when suitable.
+Avoid making the meal mostly rice, roti or other starch. Add vegetables and protein to balance the plate.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_rice_roti_guidance
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: rice diabetes, roti diabetes, brown rice, white rice, portion control
+
+RICE AND ROTI GUIDANCE FOR DIABETES:
+A diabetes patient does not always need to completely stop rice or roti, but portions matter.
+Prefer whole-wheat roti, millet roti or brown rice over maida items and large white rice portions.
+A practical plate can include 1 to 2 small rotis or about half cup cooked rice, plus dal, vegetables and salad.
+Avoid having rice, roti, potato and sweets together in the same meal.
+White rice can raise blood sugar faster, so use smaller portions and pair it with dal, vegetables and curd.
+Check blood sugar response because tolerance differs from person to person.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_nutrients
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: nutrients, minerals, vitamins, diabetes, fiber, vitamin D, B12
+
+KEY NUTRIENTS FOR DIABETES MANAGEMENT:
+Fiber from vegetables, fruits, legumes and whole grains slows sugar absorption and supports fullness.
+Magnesium from nuts, seeds, legumes and leafy greens supports metabolic health.
+Vitamin D deficiency is common and should be checked when advised by a doctor.
+Vitamin B12 may need monitoring in some people, especially those taking metformin for a long time.
+Omega-3 fats from fish, flaxseeds and walnuts can support heart health.
+Nutrients should come mainly from food; supplements should be used only when advised by a qualified clinician.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_foods_overview
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart foods, diet, cholesterol, cardiovascular, DASH, Mediterranean
+
+FOODS THAT SUPPORT HEART HEALTH:
+A heart-healthy diet can help manage cholesterol, blood pressure, weight and inflammation.
+Helpful patterns include DASH-style and Mediterranean-style eating.
+Eat more vegetables, fruits, legumes, whole grains, nuts and seeds in sensible portions.
+Use healthier oils in small amounts instead of ghee, butter, vanaspati and deep-fried foods.
+Limit salt, sugary drinks, sweets, processed foods, trans fats and excess saturated fat.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_supportive_foods
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: heart supportive foods, omega 3, nuts, seeds, garlic, olive oil
+
+SUPPORTIVE FOODS FOR HEART HEALTH:
+No single food can prevent or cure heart disease, but a healthy eating pattern can reduce risk.
+Fatty fish such as sardines, salmon and mackerel provide omega-3 fats and can be included when available and suitable.
+Walnuts, almonds and flaxseeds provide healthy fats and fiber, but portions should be small because nuts are calorie dense.
+Garlic, turmeric and ginger can be used in normal cooking amounts for flavor, but they should not replace medicines for blood pressure, cholesterol or heart disease.
+Olive, mustard, groundnut or sesame oil can be used in limited amounts instead of ghee, butter or vanaspati.
+The most important pattern is more vegetables, fruits, legumes and whole grains, with less salt, sugar, saturated fat and trans fat.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_vegetables_fruits
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: vegetables, fruits, heart health, antioxidants, fiber
+
+VEGETABLES AND FRUITS FOR HEART HEALTH:
+Vegetables and fruits support heart health because they provide fiber, potassium, vitamins and antioxidants.
+Good choices include leafy greens, beans, carrots, bottle gourd, tomatoes, cucumber, citrus fruits, apple, papaya, pomegranate, berries and amla.
+Replacing fried snacks and sweets with fruit or vegetables can improve overall diet quality.
+Potassium-rich foods may support blood pressure control for many people, but people with kidney disease should follow medical advice.
+Use fruits in sensible portions and avoid fruit juices with added sugar.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: heart_nutrients
+DISEASE: heart_disease
+SOURCE: medical_guidelines
+KEYWORDS: nutrients, omega-3, fiber, potassium, heart health
+
+KEY NUTRIENTS FOR HEART HEALTH:
+Soluble fiber from oats, legumes, fruits and vegetables can help support healthy cholesterol.
+Omega-3 fats from fish, flaxseeds and walnuts can support heart health.
+Potassium from fruits, vegetables and legumes may support blood pressure control for many people.
+Magnesium from nuts, seeds and leafy greens supports normal body functions.
+Antioxidants from colorful fruits and vegetables support overall vascular health.
+Supplements should not replace prescribed medicines and should be used only after medical advice.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: foods_to_limit
+DISEASE: general
+SOURCE: medical_guidelines
+KEYWORDS: avoid, limit, unhealthy foods, diabetes, heart disease, salt, sugar
+
+FOODS TO LIMIT FOR DIABETES AND HEART HEALTH:
+Sugary drinks and sodas can raise blood sugar quickly and add excess calories.
+Large portions of white rice, white bread and maida foods can raise blood sugar faster.
+Deep-fried foods can add unhealthy fats and excess calories.
+Processed meats and packaged snacks are often high in salt and preservatives.
+Full-fat dairy, butter, ghee and cream should be limited, especially for heart risk.
+Sweets, cakes, pastries and biscuits should be occasional and small if used at all.
+Excess salt can raise blood pressure.
+Alcohol can affect blood pressure, triglycerides, blood sugar and medicines, so follow medical advice.
+[CHUNK_END]

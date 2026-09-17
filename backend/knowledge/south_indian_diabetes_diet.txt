@@ -1,0 +1,131 @@
+[CHUNK_START]
+TOPIC: south_indian_diabetes_meal_plan
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: south indian diet, diabetes meal plan, idli, sambar, brown rice
+
+SAMPLE SOUTH INDIAN DIABETIC MEAL PLAN WITH TIMINGS:
+Breakfast 7:30 to 8:30 AM: 2 small idlis with sambar, ragi dosa, cracked wheat upma or oats upma. Use little oil and avoid sugar in tea or coffee.
+Mid-morning snack 10:30 to 11:00 AM: 1 small guava or apple, or 1 cup diluted buttermilk.
+Lunch 12:30 to 1:30 PM: 1/2 cup cooked brown rice or 2 small rotis with sambar, rasam, poriyal, salad and curd.
+Evening snack 4:00 to 5:00 PM: Sundal, roasted chana, sprouts salad or buttermilk.
+Dinner 7:00 to 8:00 PM: Ragi dosa, vegetable kootu, dal, soup or small millet khichdi.
+Key rule: Eat moderate portions every 4 to 6 hours to help keep blood sugar steadier.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: south_indian_diabetes_veg_nonveg
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: vegetarian non vegetarian diabetes south indian breakfast lunch dinner
+
+SOUTH INDIAN DIABETES DIET - VEGETARIAN AND NON VEGETARIAN OPTIONS:
+Breakfast vegetarian: 2 steamed idlis with mint chutney or 1 bowl vegetable oats upma cooked with little oil.
+Breakfast non-vegetarian: 2 boiled eggs with whole-wheat toast, or ragi dosa with a lightly cooked chicken side when suitable.
+Mid-morning vegetarian: Roasted chana, almonds in small quantity, or fresh fruit such as guava, apple or papaya.
+Mid-morning non-vegetarian: Clear chicken soup without excess salt or cream.
+Lunch vegetarian: Brown rice in controlled portion with moong dal, vegetable sambar, beans poriyal, salad and low-fat curd.
+Lunch non-vegetarian: Grilled fish or skinless chicken with vegetables and a small portion of brown rice or roti.
+Evening snack vegetarian: Sprouts salad, sundal or buttermilk.
+Evening snack non-vegetarian: Boiled egg or grilled fish in a small portion when suitable.
+Dinner vegetarian: Kootu with vegetables, ragi roti, millet dosa or vegetable soup.
+Dinner non-vegetarian: Millet chapati or dosa with grilled skinless chicken or fish, prepared with little oil.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_foods_eat_often
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: foods to eat diabetes, recommended foods, idli dosa upma poha
+
+FOODS TO EAT MORE OFTEN FOR DIABETES:
+Non-starchy vegetables such as tomato, onion, cucumber, cabbage, carrot, capsicum, beans and green leafy vegetables.
+Steamed idli, dosa with little oil, cracked wheat upma, oats upma and vegetable poha in controlled portions.
+Dal, lentils, dry beans, chana and sprouts.
+Thin buttermilk, unsweetened lime water and plain water.
+Whole fruits in controlled portions such as guava, apple, pear, papaya, citrus fruits and berries.
+Cereals such as rice, jowar, bajra and ragi should be eaten in controlled portions, not unlimited amounts.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_foods_to_limit
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: foods to avoid diabetes, sugar rich foods, fried foods, starchy vegetables
+
+FOODS TO LIMIT FOR DIABETES:
+Sugary foods and drinks such as sugar, glucose, jaggery, honey, sweet biscuits, ice cream, sweets, cakes, chocolates, pastries, jam, jellies, cold drinks, sherbets and sweetened packaged drinks can raise blood sugar quickly.
+Fried items, butter, cream, cheese and mayonnaise should be limited, especially when weight, cholesterol or heart risk is a concern.
+Higher-sugar fruits such as banana, mango, grapes, chikoo, jackfruit and custard apple are not automatically forbidden, but portions should be smaller and based on blood glucose response.
+Starchy vegetables such as potato, sweet potato, tapioca and raw banana can raise blood sugar more than non-starchy vegetables, so portions should be controlled.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_additional_tips
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: diabetes diet tips, cooking tips, lifestyle, small meals
+
+ADDITIONAL TIPS FOR DIABETES DIET:
+Prefer frequent smaller meals instead of a few large meals.
+Use brown rice or millets in controlled portions instead of large white rice portions.
+Use grains such as cracked wheat, oats, barley, ragi, jowar and bajra for variety.
+Avoid deep frying; use steaming, boiling, grilling, dry roasting or baking.
+Cook food using minimum oil.
+Include raw vegetables such as onion, tomato, cucumber or capsicum with meals when suitable.
+Use low-fat milk or curd when appropriate.
+Reduce salt, especially if blood pressure is high.
+Avoid smoking and limit alcohol according to medical advice.
+Choose fresh fruits and vegetables as snacks instead of fried or oily foods.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: indian_diabetic_daily_diet_chart
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: indian diabetic diet chart, daily plan, morning breakfast lunch dinner
+
+INDIAN DIABETIC DAILY DIET CHART WITH QUANTITIES:
+Early morning 6:30 to 7:00 AM: Water, or soaked methi seeds if suitable, or 5 to 6 soaked almonds or walnuts.
+Breakfast 8:00 to 9:00 AM: 2 moong dal chillas stuffed with vegetables, or ragi idli, with 1 small bowl low-fat curd and unsweetened tea.
+Mid-morning snack 10:30 to 11:00 AM: 1 medium guava or 1 small apple, or 1 cup buttermilk.
+Lunch 1:00 to 1:30 PM: 2 whole-wheat rotis or 1/2 cup cooked brown rice, 1 cup dal or chana, 1 cup mixed vegetable sabzi, salad and low-fat curd.
+Evening snack 4:00 to 5:00 PM: Roasted chana, sprouts salad, makhana or green tea without sugar.
+Dinner 7:00 to 8:00 PM: 1 to 2 whole-wheat rotis, 1 cup dal or vegetable soup, and 1 cup steamed or sauteed vegetables.
+Bedtime snack is not needed for everyone; follow doctor advice if taking insulin or medicines that can cause low sugar.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_glycemic_index
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: glycemic index, low GI foods, blood sugar control, GI diet
+
+UNDERSTANDING GLYCEMIC INDEX FOR DIABETES:
+Glycemic Index measures how quickly a food raises blood sugar after eating.
+High GI foods can cause faster blood sugar rises.
+Low GI foods usually release sugar more slowly.
+Low GI grain choices include millets, oats, brown rice in controlled portions and whole-wheat roti.
+Low GI legumes and pulses include moong dal, chickpeas and kidney beans.
+Low GI vegetables include okra, bottle gourd and green leafy vegetables.
+Low GI fruits include guava, apple and pear.
+Every meal should include a mix of controlled carbohydrates, protein, vegetables and healthy fats.
+Portion control matters because eating too much of even nutritious food can raise blood sugar.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: diabetes_weekly_meal_plan
+DISEASE: diabetes
+SOURCE: medical_guidelines
+KEYWORDS: weekly meal plan diabetes, 7 day plan, Monday Tuesday Wednesday
+
+SAMPLE WEEKLY INDIAN DIABETIC MEAL PLAN:
+Monday: Breakfast ragi idli with sambar, lunch brown rice with dal and palak sabzi, dinner wheat roti with bhindi curry.
+Tuesday: Breakfast oats upma with vegetables, lunch jowar roti with dal and methi sabzi, dinner khichdi with curd.
+Wednesday: Breakfast moong dal chilla with chutney, lunch brown rice with rajma curry, dinner wheat roti with lauki sabzi.
+Thursday: Breakfast sprouts salad with toast, lunch bajra roti with dal, dinner vegetable soup with roti.
+Friday: Breakfast poha with sprouts, lunch brown rice with fish curry or dal, dinner wheat roti with dal.
+Saturday: Breakfast idli sambar, lunch quinoa or millet vegetable curry, dinner khichdi with curd.
+Sunday: Breakfast vegetable uttapam, lunch brown rice with chicken curry or chana, dinner light dal roti.
+Important tips: Eat breakfast regularly, keep dinner light, maintain a gap before sleep and drink enough water unless restricted by a doctor.
+[CHUNK_END]

@@ -1,0 +1,159 @@
+[CHUNK_START]
+TOPIC: diabetes_types_overview
+DISEASE: diabetes_types
+SOURCE: dataset_analysis
+KEYWORDS: diabetes types, classification, type 1, type 2, type 3, prediabetic
+
+From our study of 70,000 patients:
+Total patients analyzed: 70,000.
+Type 1 diabetes: 32,345 patients (46.2%).
+Type 2 diabetes: 21,495 patients (30.7%).
+Type 3 diabetes: 10,784 patients (15.4%).
+Prediabetic: 5,376 patients (7.7%).
+
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: prediabetic_details
+DISEASE: diabetes_types
+SOURCE: dataset_analysis
+KEYWORDS: prediabetic, borderline, lifestyle, glucose, early stage
+
+Prediabetic patient profile from our dataset:
+Total prediabetic patients: 5,376 (7.7% of dataset).
+Average blood glucose: 112.0 mg/dL — below diabetic threshold of 126.
+Average age: 44.3 years.
+Average BMI: 26.0 — normal to overweight range.
+Average insulin: 19.6 mu U/ml.
+Prediabetes can often improve or return to the normal range with lifestyle changes and follow-up care.
+Blood sugar is higher than normal but not yet at diabetic levels.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: prediabetic_guidelines
+DISEASE: diabetes_types
+SOURCE: medical_guidelines
+KEYWORDS: prediabetic, prevention, lifestyle, diet
+
+Prediabetes medical guidelines:
+Prediabetes is diagnosed when fasting glucose is 100 to 125 mg/dL.
+It can often improve or return to the normal range with proper lifestyle changes.
+Losing 5 to 7 percent of body weight reduces risk significantly.
+Exercise 150 minutes per week to improve insulin sensitivity.
+Reduce sugar and refined carbohydrate intake.
+Regular glucose monitoring every 3 to 6 months recommended.
+Without intervention 15 to 30 percent of prediabetics develop Type 2 within 5 years.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: type1_details
+DISEASE: diabetes_types
+SOURCE: dataset_analysis
+KEYWORDS: type 1, immune, autoimmune, insulin dependent, young
+
+Type 1 diabetes patient profile from our dataset:
+Total Type 1 patients: 32,345 (46.2% of dataset).
+Average blood glucose: 161.6 mg/dL — very high.
+Average age: 16.7 years — affects young patients primarily.
+Average BMI: 20.7 — normal weight range.
+Average insulin: 15.3 mu U/ml — very low due to immune destruction.
+Type 1 detection recall by our model: 99%.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: type1_guidelines
+DISEASE: diabetes_types
+SOURCE: medical_guidelines
+KEYWORDS: type 1, immune system, insulin injections, autoimmune, treatment
+
+Type 1 diabetes medical guidelines:
+Type 1 occurs when immune system destroys insulin producing beta cells in pancreas.
+Patients require insulin injections or insulin pump for life.
+Cannot be prevented or cured currently.
+Includes subtypes: Classic Type 1, LADA, Neonatal diabetes, Wolfram Syndrome, Wolcott-Rallison Syndrome and MODY.
+LADA is a slow developing Type 1 that appears in adults aged 30 to 50.
+MODY is caused by single gene mutation and runs in families.
+Neonatal diabetes affects babies under 6 months old.
+Continuous glucose monitoring is recommended for Type 1 patients.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: type2_details
+DISEASE: diabetes_types
+SOURCE: dataset_analysis
+KEYWORDS: type 2, lifestyle, obesity, insulin resistance, older
+
+Type 2 diabetes patient profile from our dataset:
+Total Type 2 patients: 21,495 (30.7% of dataset).
+Average blood glucose: 167.0 mg/dL — very high.
+Average age: 48.4 years — affects middle aged and older patients.
+Average BMI: 29.1 — overweight to obese range.
+Average insulin: 27.6 mu U/ml — higher due to resistance.
+Type 2 detection recall by our model: 90%.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: type2_guidelines
+DISEASE: diabetes_types
+SOURCE: medical_guidelines
+KEYWORDS: type 2, lifestyle, treatment, medication, diet, exercise
+
+Type 2 diabetes medical guidelines:
+Type 2 occurs when body does not use insulin properly — insulin resistance.
+Most common form of diabetes affecting 90 to 95 percent of cases worldwide.
+Strongly linked to obesity, sedentary lifestyle and poor diet.
+Includes subtypes: Classic Type 2, Gestational diabetes and Steroid-Induced diabetes.
+Gestational diabetes occurs during pregnancy due to hormonal changes.
+Steroid-Induced diabetes is caused by long term steroid medication use.
+Treatment includes diet changes, exercise, oral medication and sometimes insulin.
+Can be managed well, and glucose levels may improve significantly with lifestyle changes and medical care.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: type3_details
+DISEASE: diabetes_types
+SOURCE: dataset_analysis
+KEYWORDS: type 3, organ damage, pancreas, CFRD, pancreatogenic
+
+Type 3 diabetes patient profile from our dataset:
+Total Type 3 patients: 10,784 (15.4% of dataset).
+Average blood glucose: 169.6 mg/dL — highest among all types.
+Average age: 39.3 years.
+Average BMI: 27.7 — overweight range.
+Average insulin: 29.5 mu U/ml.
+Type 3 detection recall by our model: 90%.
+Type 3 has the highest blood glucose of all diabetes types.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: type3_guidelines
+DISEASE: diabetes_types
+SOURCE: medical_guidelines
+KEYWORDS: type 3, pancreas damage, CFRD, pancreatogenic, organ
+
+Type 3 diabetes medical guidelines:
+Type 3 diabetes is caused by physical damage to the pancreas or related organs.
+Includes CFRD — Cystic Fibrosis Related Diabetes caused by thick mucus damaging pancreas.
+Includes Type 3c — Pancreatogenic diabetes caused by pancreatitis or pancreatic surgery.
+Requires insulin therapy in most cases.
+Also requires digestive enzyme replacement therapy.
+Medical evaluation is important because Type 3c or pancreatogenic diabetes can involve pancreatic disease or organ damage.
+It usually needs long-term medical management and should not be self-treated.
+[CHUNK_END]
+
+[CHUNK_START]
+TOPIC: model_performance
+DISEASE: diabetes_types
+SOURCE: dataset_analysis
+KEYWORDS: model accuracy, XGBoost, recall, precision, performance
+
+MediRisk diabetes type classification model performance:
+Model used: XGBoost trained on 70,000 patients.
+Overall accuracy: 95.07%.
+Prediabetic detection recall: 100% — catches every prediabetic patient.
+Type 1 detection recall: 99% — almost perfect detection.
+Type 2 detection recall: 90% — good performance.
+Type 3 detection recall: 90% — good performance.
+Training samples: 56,000 patients.
+Testing samples: 14,000 patients.
+[CHUNK_END]

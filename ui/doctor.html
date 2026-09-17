@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediRisk - Doctor</title>
+    <link rel="stylesheet" href="css/doctor.css">
+</head>
+<body>
+    <aside>
+        <h1>Medi<span>Risk</span></h1>
+        <p id="user-name">Doctor</p>
+        <small id="hospital-name">Hospital</small>
+        <button data-view="overview" class="active">Overview</button>
+        <button data-view="patients">Registered Patients</button>
+        <button data-view="reports">Patient Reports</button>
+        <button data-view="prediction">Quick Prediction</button>
+        <button data-view="summary">Give Summary</button>
+        <button data-view="insights">Insights</button>
+        <button data-view="chats">Patient Chats</button>
+        <button id="logout-btn">Logout</button>
+    </aside>
+    <main>
+        <header><div><small id="header-hospital">Hospital</small><h2 id="page-title">Overview</h2></div></header>
+        <section id="view-overview" class="view active">
+            <div class="metrics" id="metrics"></div>
+        </section>
+        <section id="view-patients" class="view">
+            <div class="panel">
+                <div class="section-head">
+                    <div>
+                        <h3>Registered Patients</h3>
+                        <p>Select a patient to review reports, insights, or give a patient-facing summary.</p>
+                    </div>
+                    <button type="button" class="secondary-btn" onclick="openSummaryFromPatients()">Give Summary</button>
+                </div>
+                <div class="row"><input id="patient-search" placeholder="Search name, phone, or UID"><button id="patient-search-btn">Search</button></div>
+                <div id="patient-results" class="list"></div>
+            </div>
+        </section>
+        <section id="view-reports" class="view">
+            <div class="panel"><h3>Create Patient Report</h3><form id="report-form" class="grid"></form><p id="report-message"></p><div id="report-output" class="list"></div></div>
+        </section>
+        <section id="view-prediction" class="view">
+            <div class="panel">
+                <h3>Quick Prediction</h3>
+                <p>Run diabetes or simple heart screening without saving a patient report.</p>
+                <form id="standalone-prediction-form" class="grid"></form>
+                <p id="standalone-prediction-message"></p>
+                <div id="standalone-prediction-output" class="list"></div>
+            </div>
+        </section>
+        <section id="view-summary" class="view">
+            <div class="panel">
+                <h3>Give Summary to Patient</h3>
+                <p>Select a registered patient, then write clear suggestions the patient can read in their portal.</p>
+                <form id="doctor-summary-form" class="grid">
+                    <label>Patient ID<input id="summary-patient-id" type="number" min="1" required></label>
+                    <label>Patient Summary<textarea id="summary-text" required placeholder="Explain the patient's current condition in simple words."></textarea></label>
+                    <label>Medication Suggestions<textarea id="summary-medication" placeholder="Mention medication advice only if reviewed by the doctor."></textarea></label>
+                    <label>Lifestyle / Diet Suggestions<textarea id="summary-lifestyle" placeholder="Diet, exercise, monitoring, precautions."></textarea></label>
+                    <label>Follow-up Advice<textarea id="summary-followup" placeholder="Next review date, tests, warning signs."></textarea></label>
+                    <button type="submit">Save Patient Summary</button>
+                </form>
+                <p id="summary-message"></p>
+                <div id="summary-output" class="list"></div>
+            </div>
+        </section>
+        <section id="view-insights" class="view">
+            <div class="panel"><h3>Patient Insights</h3><div class="row"><input id="insight-patient-id" type="number" placeholder="Patient ID"><button id="load-insights-btn">Load</button></div><div id="insight-output" class="list"></div></div>
+        </section>
+        <section id="view-chats" class="view">
+            <div class="panel"><h3>Patient Chats</h3><p>Read-only patient chat history will appear here after chat persistence is enabled.</p></div>
+        </section>
+    </main>
+    <script src="js/hospital-api.js"></script>
+    <script src="js/role-common.js"></script>
+    <script src="js/doctor.js"></script>
+</body>
+</html>
